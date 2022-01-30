@@ -16,7 +16,7 @@ public class Inventory : MonoBehaviour
     }
 
 
-    private int _numBananas = 0;
+    private static int _numBananas = 0;
 
     public void AddBananas(int number)
     {
@@ -32,6 +32,18 @@ public class Inventory : MonoBehaviour
 
     public void UpdateBananaDisplayText()
     {
-        bananaCounterDisplay.text = _numBananas.ToString("000");
+        bananaCounterDisplay.text = _numBananas.ToString("00") + "/" + TotalNumBananas.ToString("00");
+    }
+
+    public int HowManyBananas()
+    {
+        return _numBananas;
+    }
+
+    private int TotalNumBananas = 15;
+    public void SetNumBananas(int num)
+    {
+        TotalNumBananas = num;
+        UpdateBananaDisplayText();
     }
 }
