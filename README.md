@@ -3,7 +3,7 @@
 # January 2022 Global Game Jam
 ### Dates: Jan. 28th - Jan. 30th, 2022
 
-This is the first ever game jam and game that I have created. It was a lot of fun, (check it out here!)[https://nathantaylor1.github.io/NoBananas/]
+This is the first ever game jam and game that I have created. It was a lot of fun, [check it out here!](https://nathantaylor1.github.io/NoBananas/)
 
 ![](imgs/WSoft_GGJ_2022.png)
 
